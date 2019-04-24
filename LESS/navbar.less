@@ -1,0 +1,54 @@
+header {
+	width: 100%;
+	background-color: #C12A2A;
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    color: #400C0C;
+    h1 {
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+    }
+    .login {
+        display: flex;
+        margin: 10px 20px 0 20px;
+        button {
+            margin-bottom: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+            border-radius: 5px;
+            padding: 0 10px;
+            border: 2px outset azure;
+            background-color: azure;
+        }
+        button:hover {
+            background-color: lightslategray;
+            border-color: lightslategray;
+            color: azure;
+        }
+    }
+    nav {
+        padding: 5px 0px;
+        a {
+            text-decoration: none;
+            color: #FA919C;
+            padding: 14px 20px;
+            &:hover {
+                color: #91E5FA;
+	            background-color: #400C0C;
+            }
+        }
+    }
+}
+@media (max-width: 744px) {
+	header {
+        justify-content: center;
+        .login {
+            margin-top: 15px;
+        }
+    }
+}
