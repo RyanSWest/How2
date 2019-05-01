@@ -1,0 +1,189 @@
+
+
+
+@media (max-width:1200px){
+    body{
+      background-image: url('https://img2.akspic.com/image/39581-sky-snow-night_sky-mountain-freezing-1600x1200.jpg');
+      
+    }
+    
+    
+    .top-content{
+      background-image: linear-gradient(rgb(80, 4, 4), red);
+      color: white;
+        display: inline-flex;
+        flex-direction: column;
+        width: 100%;
+        align-content: center;
+        border:2px solid whitesmoke;
+        border-radius: 5px;
+      }
+    #nav-bar{
+      border: 2px solid whitesmoke;
+      border-radius:5px;
+      margin:5px;
+    }
+      .top-content h1 {
+        color: white;
+        font-size: 70px;
+      margin:auto;
+      font-family: 'Libre Baskerville', serif;
+      }
+      .nav{
+        width:25%;
+      }
+      
+    
+      #read{
+        color:whitesmoke;
+      }
+      .top-content h2{
+        margin: auto;
+        color: white;
+        font-family: 'Libre Baskerville', serif;
+      
+      }
+      .middle {
+      
+        display: inline-flex;
+        flex-direction:row;
+        height:15%;
+        width:100%;
+         margin: auto;
+         border: linear-gradient(rgb(80, 4, 4), red);
+      
+       }
+    
+        p {
+        font-size: 20px;
+        margin:10px;
+        color:whitesmoke
+      }
+       #pic{
+        display: flex;
+         width: 60%;
+        height:60%;
+        margin: auto;
+        border-radius: 5px;
+       }
+       .middle2{
+        display: inline-flex;
+        flex-direction:row;
+        height:10%;
+        width:100%;
+         margin: auto;
+          border: 5px solid whitesmoke;
+    
+       }
+    
+       #nav-bar{
+        background-image: linear-gradient(rgb(80, 4, 4), red);
+           
+       }
+       nav a {
+        display: inline-flex;
+        font-size: 20px;
+        margin: 20px;
+        justify-content: space-evenly;
+        color: white;
+    
+       }
+    
+       button{
+        display: flex;
+        border-radius: 5px;
+        margin: auto;
+         width:35%;
+        padding: 15px;
+        font-size: 15px;
+        margin-top: 20px;
+          border-radius: 20px;
+        background-color:navy;
+        color:whitesmoke;
+        font-family: 'Libre Baskerville', italic,serif;
+        }
+       button:hover {
+      background-color: white;
+      color:navy;
+       
+    }
+    a:hover {
+        background-color: lightslategray;
+        border-color: red;
+      
+    }
+    
+       .italy{
+          width:60%;
+        height: 0%;
+        border-radius: 5px;
+        }
+       .middle p {
+        font-size: 20px;
+        margin:10px;
+      }
+      .middle2 p {
+        font-size: 20px;
+        margin:10px;
+      }
+      .bottom{
+        display:none;
+      }
+    }
+      
+      @media (max-width:500px){
+    
+        .middle{
+          flex-direction:column;
+        }
+    
+        .middle2{
+          flex-direction: column;
+        }
+         .middle p{
+           font-size: 14px;
+      }
+      .middle2  p {
+        font-size:14px;
+    
+      }
+       img{
+        width:90%;
+        margin:auto;
+        border:2px solid whitesmoke;
+        margin-top:5px;
+       }
+        button {
+          padding:5px;
+          font-size:12px;
+           text-align: center;
+          width:15%;
+        }
+    
+        .bottom{
+          background-image: linear-gradient(rgb(80, 4, 4), red);
+          display: flex;
+          padding:10px;
+          margin-top:5px;
+     
+        }
+        .bottom h2 {
+          color:whitesmoke;
+          margin:auto;
+        }
+        .top-content h1 {
+          font-size:50px;
+        }
+        #nav-bar {
+          display: inline-flex;
+          width:100%;
+           justify-content: center;
+          align-content:center;
+         }
+        #nav-bar  a {
+          font-size: 14px;
+          justify-content: center;
+          align-content: center;
+    
+        }
+      }

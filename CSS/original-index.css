@@ -1,0 +1,270 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+html {
+  font-size: 62.5%;
+}
+h1,
+h2,
+h3 {
+  font-family: 'Libre Baskerville', serif;
+}
+h1 {
+  font-size: 6rem;
+}
+h2 {
+  font-size: 3rem;
+}
+h3 {
+  font-size: 2rem;
+}
+p,
+button,
+a {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.6rem;
+}
+body {
+  background: #173F5F;
+}
+span {
+  font-family: 'Libre Baskerville', serif;
+}
+header {
+  width: 100%;
+  background-color: #C12A2A;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  color: #400C0C;
+}
+header h1 {
+  width: 100%;
+  text-align: center;
+  margin: 10px 0;
+}
+header .login {
+  display: flex;
+  margin: 10px 20px 0 20px;
+}
+header .login button {
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 5px;
+  padding: 0 10px;
+  border: 2px outset azure;
+  background-color: azure;
+}
+header .login button:hover {
+  background-color: lightslategray;
+  border-color: lightslategray;
+  color: azure;
+}
+header nav {
+  padding: 5px 0px;
+}
+header nav a {
+  text-decoration: none;
+  color: #FA919C;
+  padding: 14px 20px;
+}
+header nav a:hover {
+  color: #91E5FA;
+  background-color: #400C0C;
+}
+@media (max-width: 744px) {
+  header {
+    justify-content: center;
+  }
+  header .login {
+    margin-top: 15px;
+  }
+}
+footer {
+  width: 100%;
+  padding: 10px 0;
+  background-color: #C12A2A;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+}
+.main-content {
+  display: flex;
+  margin-top: 120px;
+}
+.main-content .mission {
+  width: 60%;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-content .mission h2 {
+  color: #C12A2A;
+  margin-bottom: 20px;
+}
+.main-content .mission img {
+  width: 60%;
+  margin-bottom: 40px;
+}
+.main-content .mission p {
+  color: #C4DDE5;
+}
+.main-content .recent {
+  width: 40%;
+  margin-top: 70px;
+}
+.main-content .recent div {
+  width: 80%;
+  margin: 10px 20px;
+  padding: 5px;
+  background-color: #C4DDE5;
+  border-radius: 5px;
+  border: 2px outset #4B8191;
+}
+.main-content .recent h2,
+.main-content .recent h3,
+.main-content .recent a {
+  color: #C12A2A;
+}
+.main-content .recent h3 {
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 5px;
+}
+.main-content .recent a {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+}
+.main-content .recent p {
+  margin-left: 5px;
+}
