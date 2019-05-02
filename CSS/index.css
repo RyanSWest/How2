@@ -30,7 +30,7 @@ body{
     margin:30px;
   
   }
-  @media(max-width: 1200px){
+  @media(max-width: 1600px){
   .main{
      display:inline-flex;
     margin:auto;
@@ -114,6 +114,24 @@ body{
     font-size: 60px;
   }
     
+  /* } */
+
+
+  @media(min-width: 800px){
+    
+    .aboutHow2{
+      margin: 5px;
+      font-size: 30px;}
+
+    .sign-up{
+      padding: 15px;
+      font-size: 16px;
+    }
+
+    nav a {
+      margin: 5px;
+      font-size: 16px;
+    }
   }
   @media(max-width:500px){
     
@@ -170,7 +188,7 @@ body{
   
   
   
-  @media (max-width:1200px){ 
+  @media (max-width:1600px){ 
   header {
     width: 100%;
      height:10%;
@@ -216,7 +234,20 @@ body{
       z-index: 2;
   
     }
-  
+    .droppdown-content ul li {
+        color: red;
+        font-size:20px;
+    }
+    .droppdown-content ul li:hover {
+        color: white;
+        background-color: red;
+        font-size:20px;
+    }
+     .dropdown-content nav {
+       display:inline-flex;
+       flex-direction: column;
+       width:100%;
+     }
     .dropdown-open{
       display:block;
      }
@@ -550,8 +581,17 @@ body{
             }
             
             .dropdown-content nav a {
+                list-style-type: none;
                 font-size: 12px;
+                padding: 30px 0;
+                text-align: center;
              }
+             .dropdown-content ul li{
+                list-style-type: none;
+                font-size: 12px;
+                padding: 20px 0;
+                text-align: center;
+              }
            
             .dropdown-content {
                 display:none;
@@ -564,6 +604,7 @@ body{
                 z-index: 2;
             
               }
+              
               .dropdown {
                 z-index: 2;
                 position: absolute;
@@ -573,9 +614,8 @@ body{
                 }
             
               .dropdown-open{
-                display:flex;
-                flex-wrap:wrap;
-               }
+                display:block;
+                }
   
   
         }

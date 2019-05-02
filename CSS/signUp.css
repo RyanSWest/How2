@@ -1,0 +1,62 @@
+body{
+    background-image: url('https://img2.akspic.com/image/39581-sky-snow-night_sky-mountain-freezing-1600x1200.jpg');
+    
+  }
+  
+
+
+header{
+    background-image: linear-gradient(rgb(80, 4, 4), red);
+    font-family: 'Libre Baskerville', serif;
+      width: 100%;
+      text-align: center;
+      font-size: 20px;
+      margin-bottom: 40px;
+  }
+  header h1, h2{
+    color: white;
+  }
+  .inputs{
+    display: inline-flex;
+    flex-direction: column;
+    margin: auto;
+    padding:20px;
+  }
+  span{
+      color:whitesmoke
+  }
+  #interest{
+    background-image: linear-gradient(rgb(80, 4, 4), red);
+  }
+  .checkboxes h3{
+    background-color: red;
+    color: white;
+  }
+  .checkboxes span{
+    display: flex;
+    color: whitesmoke;
+     font-family: 'Libre Baskerville', serif;
+  }
+  .checkboxes input{
+    padding:20px;
+    display: flex;
+  }
+  #logobox{
+    height:50%;
+  }
+  .top-content{
+    display: flex;
+  }
+  footer{
+    background-image: linear-gradient(rgb(80, 4, 4), red);
+    font-family: 'Libre Baskerville', serif;
+      width: 100%;
+    color: white;
+      text-align: center;
+    
+  }
+  #logobox{
+      background-color: azure;
+      height:10%;
+      border-radius: 20px;
+  }
