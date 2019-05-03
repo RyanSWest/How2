@@ -12,9 +12,11 @@ header{
       text-align: center;
       font-size: 20px;
       margin-bottom: 40px;
+      
   }
   header h1, h2{
     color: white;
+    
   }
   .inputs{
     display: inline-flex;

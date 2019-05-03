@@ -1,0 +1,98 @@
+.scaleDiv div {
+    background-color: red;
+    border: 2px solid white;
+    width:100%;
+    text-align: center
+
+}
+
+h1{
+    display:flex;
+ 
+     color:white;
+ }
+
+h2 {
+    margin:5px;;
+}
+
+.chordDiv{
+    border: 2px solid white;
+    width:35%;
+}
+.top {
+    text-align: center;
+    background-color: black
+}
+
+.scaleDiv {
+    border: 2px solid white;
+    width:35%;
+}
+.chordDiv div {
+    background-color:dodgerblue;
+    border: 2px solid white;
+    width:100%;
+    text-align: center;
+}
+
+.chordDiv{
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+}
+
+.chordDiv div:hover {
+    background-color: whitesmoke;
+}
+.container{
+    display:flex;
+    flex-direction: row;
+    border: 2px solid blue;
+    background-color: navy;
+}
+.scaleDiv div:hover{
+    background-color: white;
+
+}
+#one{
+    background-color: red;
+
+}
+.relDiv {
+    width:30%;
+}
+ 
+
+.relDiv p {
+    font-size: 30px;
+    margin: 5px;
+}
+.scaleDiv{
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+}
+
+.relDiv{
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+}
+ 
+
+.relDiv p {
+    color: white;
+}
+
+.relDiv div {
+     width:100px;
+}
+button{
+    padding:15px;
+    background-color: red;
+    color:white;
+    border-radius:15px;
+    font-size: 20px;
+    border: 2px solid white;
+ }

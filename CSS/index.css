@@ -2,14 +2,31 @@ body{
     background-image: url('https://img2.akspic.com/image/39581-sky-snow-night_sky-mountain-freezing-1600x1200.jpg');
     
   }
+  .relDiv{
+    margin:5px;
+  }
+
+  .scaleDiv  {
+    background-color: red;
+
+}
+#one{
+    background-color: red;
+
+}
   
-  
-  
+  .navline{
+    margin:20px;
+  }
+  .navline a:hover {
+    color:red;
+    
+  }
   
   .dropdown-content nav a {
     display:inline-flex;
     flex-direction: column;
-    font-size: 20px;
+     font-size: 20px;
     padding: 30px 0;
     text-align: center;
     color:red;
