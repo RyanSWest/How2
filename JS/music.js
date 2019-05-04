@@ -1,6 +1,6 @@
 const notes = ['A', 'Bb', 'B', "C",  'C#','D', 
-'Eb', 'E','F','F#', 'G', 'Ab','A', 'Bb', 
-'B', "C",  'C#','D', 'Eb', 'E','F','F#', 'G', 'Ab']
+'Eb', 'E','F','F#', 'G', 'Ab','a', 'Bb', 
+'b', "c",  'C#','d', 'Eb', 'E','F','F#', 'G', 'Ab']
 
 
 //create paragraphs for each scale.
@@ -51,11 +51,14 @@ diminished.addEventListener('click', Diminished);
 
 //functions//
  function getKey(){
-
-    var  key = window.prompt("Enter a key");
+   
+  var  key = window.prompt("Enter a key");
     var Id = notes.indexOf(key)
     return Id;
-    }
+}
+     
+    
+    
 
     function Ionian(){
         var startId = getKey();
@@ -68,6 +71,7 @@ diminished.addEventListener('click', Diminished);
            var  third = notes[startId+4];
            var seven = notes[startId+11];
             var fifthP = document.createElement('p');
+             
         fifthP.textContent = `${root}  Ionian (regular major) scale is ${root}, ${second},${third}, ${fourth }, ${fifth}, ${sixth}, ${seven}`;
         ionian.append(fifthP);
           
@@ -78,22 +82,24 @@ diminished.addEventListener('click', Diminished);
     function Dorian(){
         var startId = getKey();
             var length = notes.length;
-           var root = notes[startId];
-            var second = notes[startId+2]
+           var root = notes[startId] 
+            var second = notes[startId+2] 
            var  fifth = notes[startId+7];
            var sixth = notes[startId+9];
            var fourth  = notes[startId +5]
            var minthird = notes[startId+3];
            var flat7 = notes[startId+10];
             var P = document.createElement('p');
+             
            dorian.append(P)
-          P.textContent = `${root} Dorian scale is ${root}, ${second},${minthird}, ${fourth},${fifth }, ${sixth}, ${flat7}`;
-
+          P.textContent = `${root} Dorian scale is ${root}, ${second},${minthird}, ${fourth},${fifth }, ${sixth}, ${flat7}`;}
+             
+ 
          
      
     
     
-        }
+        
 
 function Phrygian(){
     var startId = getKey();
