@@ -1,7 +1,7 @@
 
 
 
-@media (max-width:1200px){
+/* @media (max-width:1200px){ */
     body{
       background-image: url('https://img2.akspic.com/image/39581-sky-snow-night_sky-mountain-freezing-1600x1200.jpg');
       
@@ -129,7 +129,7 @@
       .bottom{
         display:none;
       }
-    }
+    /* } */
       
       @media (max-width:500px){
     

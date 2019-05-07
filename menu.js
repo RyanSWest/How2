@@ -36,5 +36,23 @@ const newA = document.createElement('a');
 newA.textContent ='new Stuff';
 dButton.addEventListener('click',dropMenu)
  console.log(newA)
+
+ //adding a signup sheet to the DOM
+ let bottomContent = document.querySelector('#passwordDiv')
+ let nameInput = document.createElement('input');
+ let emailInput = document.createElement('input');
+ let name = document.createElement('span');
+ name.textContent ='name :';
+
+ let email = document.createElement('span');
+ email.textContent= 'email:';
  
-  
+ let passwordInput = document.createElement('input')
+ let password = document.createElement('span')
+ password.textContent = 'create password'
+ let p = document.querySelector('p');
+ let signUp = document.querySelector('button')
+ signUp.addEventListener('click' ,function(){
+      bottomContent.append(name, nameInput, email,emailInput, password, passwordInput)
+ })
+   console.log(bottomContent)
